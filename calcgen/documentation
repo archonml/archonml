@@ -1,0 +1,36 @@
+This document shall serve as a brief explanation on the spirit of the calculation generators.
+The callable main generator for the files will be placed in the ../Generate.py code - and depending on which QC package was specified during the main program,
+the generator is calling a different executor program from in here. Thus, for each QC program suite that will be cross-linked to the ArchOnML package,
+one separate python file should be present.
+
+To set up a generator, the following "workflow" should be used:
+
+1. Requirements for the QC-pack generator:
+There is supposed to be one main function that shall generate the input file(s) necessary for the respective QC package. It should (ultimately) only require the following inputs:
+  - a file path to create the fcalculation in.
+  - a calculation type to generate.
+  - a calculation flavor.
+
+What is meant with types and flavors is explained below.
+
+2. Calculation types:
+The calculation types are stored in a "dictionary of dictionaries" way, where a specific desired type (e.g. "Opt" for generating a  structure optimization) points to a list
+of inputs that the generator function needs in order to produce a valid input file for the QC package. In the minimal case, this might just be a single text entry with
+placeholders for the molecular input geometry and further calculation parameters such as functionals. Note, that some calculations will start from the Guess structure, some
+from a pre-optimized structure and some from an optimized structure. This can be dealt with through some flag settings in each calculation type dictionary.
+
+Finally, for each calculation type, there was originally a letter assigned to have a "zeroth-level" difference between folder names.
+Some letters have been useful to the ML module in "older projects" so their letters were carried over - while other calculation letters are "free" now, again. How you locally
+define all the names is up to you - as long as you stay consistent within your working space / coworkers.
+
+
+3. Calculation flavors:
+As mentioned above, the calculation types may have placeholders for specifications on what DFT functional to use or basis set etc. Any combination of such specifications
+has to be stored as a separated so-called flavor information to ensure that all files are uniquely named. Hence, a second dictionary of dictionaries stores the required
+"Method" and "Basis" (and such) information.
+
+When creating new flavors or calculation types, please make sure that the naming of folders and input/output files has to be unique and should be set fixed, since possibly
+millions of files are required to be produced in the exact same way over and over. If there are flavors to a calculation, the flavor of the calculation has to be specified
+in the folder name - which ultimately needs to be taken care of in the ML Module inputs, later on.
+
+FW 07/17/23
