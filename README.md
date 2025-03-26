@@ -1,10 +1,6 @@
 # ArchOnML
 
----
-
 ## About
-
----
 
 <p>ArchOnML (derived from "Archive-On-Machine-Learning") is a python package that allows setting up and conducting machine learning-assisted molecular design
   projects. It presents an interface between quantum chemistry packages (e.g. *gaussian* and *orca*) and machine learning packages that requires only minimal user
@@ -16,8 +12,6 @@
    [here](https://chemrxiv.org/engage/chemrxiv/article-details/67d0668881d2151a0202d424).</p>
 
 ## Installation
-
----
 
 ### Requirements
 
@@ -73,21 +67,16 @@
 
 ## Documentation
 
----
-
-<p>A detailed documentation on the program package can be found in the repository at (https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf). This
-   documentation contains a quick-start guide, general user's guide as well as a developer's guide - each explaining the code and its functionality in increasing level of detail.</p>
+<p>A detailed documentation on the program package can be found in the repository at ([https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf] 
+   (https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf)). This documentation contains a quick-start guide, general user's guide as well as
+   a developer's guide - each explaining the code and its functionality in increasing level of detail.</p>
 
 ## Support and Contributions
-
----
 
 <p>If you have trouble with installing or using the program package, please contact the developer of ArchOnML directly via github's
    [issues tab](https://github.com/archonml/archonml/issues).</p>
 
 ## License Note
-
----
 
 <p>ArchOnML is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either
    version 3 of the License, or (at your option) any later version.</p>
@@ -95,4 +84,4 @@
 <p>The program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU Lesser General Public License for more details.</p>
 
-<p>You should have received a copy of the GNU Lesser General Public License along with ArchOnML. If not, see <https://www.gnu.org/home.en.html>.</p>
+<p>You should have received a copy of the GNU Lesser General Public License along with ArchOnML. If not, see [https://www.gnu.org/home.en.html](https://www.gnu.org/home.en.html).</p>
