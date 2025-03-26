@@ -1,6 +1,6 @@
 # ArchOnML
 
-[![DOI]10.26434/chemrxiv-2025-1g7jl](https://doi.org/10.26434/chemrxiv-2025-1g7jl)
+[![DOI](10.26434/chemrxiv-2025-1g7jl)](https://doi.org/10.26434/chemrxiv-2025-1g7jl)
 
 ## About
 
