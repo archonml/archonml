@@ -1,6 +1,6 @@
 # ArchOnML
 
-![][BadgeShield][DOILink]
+![](BadgeShield)(DOILink)
 
 [BadgeShield]: https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--1g7jl-brightgreen?label=DOI
 [DOILink]: https://doi.org/10.26434/chemrxiv-2025-1g7jl
