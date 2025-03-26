@@ -8,8 +8,8 @@
 
 <p>It is designed to be useful to beginners in both machine learning and quantum chemistry, while offering the flexibility to implement new, user-defined descriptors
    or machine learning models specific to the project requirements. If you choose to use ArchOnML for one of your projects, please cite the program package source from
-   the github. (<https://github.com/archonml/archonml>) Further, there is a pre-print research article available that introduces ArchOnML on the example of anthraquinone
-   [here](https://chemrxiv.org/engage/chemrxiv/article-details/67d0668881d2151a0202d424).</p>
+   the github. (https://github.com/archonml/archonml) Further, there is a pre-print research article available that introduces ArchOnML on the example of anthraquinone
+   available on ChemRxiv (https://chemrxiv.org/engage/chemrxiv/article-details/67d0668881d2151a0202d424).</p>
 
 ## Installation
 
@@ -40,7 +40,7 @@
 
 > $ conda install -c conda-forge pyquaternion
 
-<p>You can find these channels by searching for the packages on the [anaconda.org](https://anaconda.org/) website. Finally, after installing all packages successfully, it is
+<p>You can find these channels by searching for the packages on the https://anaconda.org/ website. Finally, after installing all packages successfully, it is
    recommended to run</p>
 
 > $ conda update --all
@@ -67,14 +67,14 @@
 
 ## Documentation
 
-<p>A detailed documentation on the program package can be found in the repository at ([https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf] 
-   (https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf)). This documentation contains a quick-start guide, general user's guide as well as
-   a developer's guide - each explaining the code and its functionality in increasing level of detail.</p>
+<p>A detailed documentation on the program package can be found in the repository at (https://github.com/archonml/archonml/blob/main/Documentation/ArchOnML_Documentation.pdf).
+   This documentation contains a quick-start guide, general user's guide as well as a developer's guide - each explaining the code and its functionality in increasing level of
+   detail.</p>
 
 ## Support and Contributions
 
 <p>If you have trouble with installing or using the program package, please contact the developer of ArchOnML directly via github's
-   [issues tab](https://github.com/archonml/archonml/issues).</p>
+   issues tab (https://github.com/archonml/archonml/issues).</p>
 
 ## License Note
 
@@ -84,4 +84,4 @@
 <p>The program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
    See the GNU Lesser General Public License for more details.</p>
 
-<p>You should have received a copy of the GNU Lesser General Public License along with ArchOnML. If not, see [https://www.gnu.org/home.en.html](https://www.gnu.org/home.en.html).</p>
+<p>You should have received a copy of the GNU Lesser General Public License along with ArchOnML. If not, see https://www.gnu.org/home.en.html.</p>
