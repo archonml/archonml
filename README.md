@@ -1,6 +1,6 @@
 # ArchOnML
 
-![Static Badge](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--1g7jl-brightgreen?label=DOI&link=https%3A%2F%2Fdoi.org%2F10.26434%2Fchemrxiv-2025-1g7jl)
+![Static Badge](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--1g7jl-brightgreen?label=DOI&link=https%3A%2F%2Fdoi.org%2F10.26434%2Fchemrxiv-2025-1g7jl)(https://doi.org/10.26434/chemrxiv-2025-1g7jl)
 
 ## About
 
