@@ -1,5 +1,7 @@
 # ArchOnML
 
+[![DOI]10.26434/chemrxiv-2025-1g7jl](https://doi.org/10.26434/chemrxiv-2025-1g7jl)
+
 ## About
 
 <p>ArchOnML (derived from "Archive-On-Machine-Learning") is a python package that allows setting up and conducting machine learning-assisted molecular design
